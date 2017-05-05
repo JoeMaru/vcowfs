@@ -1,0 +1,429 @@
+
+vcowfs_init()
+    conn:
+    proto_major = 7
+    proto_minor = 23
+    async_read = 1
+    max_write = 131072
+    max_readahead = 131072
+    capable = 00000ffb
+    want = 00000010
+    max_background = 0
+    congestion_threshold = 0
+    context:
+    fuse = 008844f0
+    uid = 0
+    gid = 0
+    pid = 0
+    private_data = 00883010
+    logfile = 00884040
+    rootdir = /home/nat/Desktop/vco/example/image.img
+    umask = 00000
+
+vcowfs_access(path="/", mask=04)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    ERROR vcowfs_access access: Not a directory
+
+vcowfs_opendir(path="/", fi=0x7cdc6c80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_getattr(path="/.xdg-volume-info", statbuf=0x7cdc6c90)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/.xdg-volume-info", fpath = "/home/nat/Desktop/vco/example/image.img/.xdg-volume-info"
+    lstat returned -1
+    ERROR lstat: Not a directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+vcowfs_opendir(path="/", fi=0x7cdc6c80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_getattr(path="/autorun.inf", statbuf=0x7cdc6c90)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/autorun.inf", fpath = "/home/nat/Desktop/vco/example/image.img/autorun.inf"
+    lstat returned -1
+    ERROR lstat: Not a directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+vcowfs_opendir(path="/", fi=0x7cdc6c80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x77ffec80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x7cdc6c80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x77ffec80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x7cdc6c80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x77ffec80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x7cdc6c80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x77ffec80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x7cdc6c80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x77ffec80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x7cdc6c80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x77ffec80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x7cdc6c80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x77ffec80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x7cdc6c80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x77ffec80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x7cdc6c80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x77ffec80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x7cdc6c80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x77ffec80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_opendir(path="/", fi=0x7cdc6c80)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    opendir returned 0x(nil)
+    ERROR vcowfs_opendir opendir: Not a directory
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x0000000000000000
+    lock_owner = 0x0000000000000000
+
+vcowfs_getattr(path="/autorun.inf", statbuf=0x77ffec90)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/autorun.inf", fpath = "/home/nat/Desktop/vco/example/image.img/autorun.inf"
+    lstat returned -1
+    ERROR lstat: Not a directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+vcowfs_getattr(path="/a.txt", statbuf=0x7cdc6c90)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/a.txt", fpath = "/home/nat/Desktop/vco/example/image.img/a.txt"
+    lstat returned -1
+    ERROR lstat: Not a directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+vcowfs_getattr(path="/", statbuf=0x77ffec60)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    lstat returned -1
+    ERROR lstat: Not a directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+vcowfs_access(path="/", mask=01)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    ERROR vcowfs_access access: Not a directory
+
+vcowfs_access(path="/", mask=01)
+    vcowfs_fullpath:  rootdir = "/home/nat/Desktop/vco/example/image.img", path = "/", fpath = "/home/nat/Desktop/vco/example/image.img/"
+    ERROR vcowfs_access access: Not a directory
+
+vcowfs_destroy(userdata=0x00883010)
